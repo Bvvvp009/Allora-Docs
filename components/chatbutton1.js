@@ -33,7 +33,7 @@ function ChatComponent({ onClose }) {
     
     try {
       // Send user's message to the FastAPI backend.
-      const response = await fetch("https://b832b91b8183b88b9c22eda604f1e09.testnet.allora.run/chat", { 
+      const response = await fetch("https://chatbot-api-api-chatbot-000000000.testnet.allora.run/chat", { 
         method: "POST",
         headers: {
           "Content-Type": "application/json",
